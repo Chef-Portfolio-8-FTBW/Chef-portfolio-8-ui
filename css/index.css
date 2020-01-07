@@ -144,7 +144,8 @@ h5 {
   font-family: sans-serif;
 }
 h1 {
-  font-size: 4rem;
+  color: white;
+  font-size: 7rem;
 }
 p {
   line-height: 1.5;
@@ -178,4 +179,27 @@ header div {
   background-color: yellowgreen;
   padding: 0.5% 2.5%;
   border-radius: 10px;
+}
+.home .top-image-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  background-image: url(https://images.unsplash.com/photo-1485827329522-c625acce0067?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 13% 0;
+}
+.home .top-image-section p {
+  font-size: 7rem;
+  text-align: center;
+}
+.home .top-image-section h1 {
+  text-align: center;
+  margin-top: 10%;
+}
+.home .top-image-section div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
