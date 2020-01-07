@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 1px solid black;
+  border: 0;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -164,10 +164,13 @@ header {
   background-color: black;
   padding: 2% 0;
 }
+header p {
+  font-size: 2rem;
+}
 header a {
   color: white;
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 2rem;
 }
 header nav {
   width: 50%;
@@ -175,10 +178,13 @@ header nav {
   justify-content: space-evenly;
 }
 header div {
-  color: black;
   background-color: yellowgreen;
   padding: 0.5% 2.5%;
   border-radius: 10px;
+}
+header div a {
+  color: black;
+  font-size: 2.5rem;
 }
 .home .top-image-section {
   display: flex;
@@ -188,18 +194,31 @@ header div {
   background-image: url(https://images.unsplash.com/photo-1485827329522-c625acce0067?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 13% 0;
-}
-.home .top-image-section p {
-  font-size: 7rem;
-  text-align: center;
+  padding: 15% 0;
 }
 .home .top-image-section h1 {
   text-align: center;
   margin-top: 10%;
 }
-.home .top-image-section div {
-  width: 100%;
+.home .bottom-image-section {
+  margin-top: -7%;
+}
+.home .bottom-image-section div {
   display: flex;
   justify-content: space-between;
+}
+.home .bottom-image-section p {
+  font-size: 7rem;
+  text-align: center;
+}
+.home .bottom-image-section .home-search {
+  font-size: 2rem;
+}
+.home .home-search {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background-color: rgba(10, 10, 10);
+  color: white;
+  margin-top: -2%;
 }
