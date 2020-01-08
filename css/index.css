@@ -85,7 +85,7 @@ audio,
 video {
   margin: 0;
   padding: 0;
-  border: 0;
+  border: 1px solid white;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
@@ -230,6 +230,7 @@ header div a {
 .home .bottom-image-section div {
   display: flex;
   justify-content: space-between;
+  padding: 0 4%;
 }
 .home .home-search {
   width: 100%;
@@ -285,14 +286,37 @@ header div a {
   background-image: url(https://images.unsplash.com/photo-1532635211-8ec15f2ce05c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
 }
 .home .professional-question {
-  width: 80%;
+  width: 90%;
   text-align: center;
   background-color: #2F2D2D;
   color: #07FE20;
   padding-top: 0.5% 0;
-  font-size: 6rem;
+  font-size: 5rem;
 }
 .home .middle-section-top {
+  width: 90%;
   display: flex;
   background-color: #07FE20;
+  margin: 8% 0;
+  border-radius: 12px;
+}
+.home .middle-section-top-left {
+  width: 35%;
+  display: flex;
+  justify-content: center;
+  padding: 3% 8%;
+}
+.home .middle-section-top-right {
+  width: 65%;
+  background-color: #2F2D2D;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 4%;
+}
+.home .middle-section-top-right li {
+  color: #07FE20;
+  font-size: 3.5rem;
+  list-style-type: disc;
+  margin: 10% ;
 }
