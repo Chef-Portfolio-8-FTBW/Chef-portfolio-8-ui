@@ -298,14 +298,15 @@ header div a {
   text-align: center;
   background-color: #2F2D2D;
   color: #07FE20;
-  padding-top: 0.5% 0;
+  padding-top: 2% 0;
   font-size: 5rem;
+  margin: 6% 0;
 }
 .home .middle-section-top {
   width: 90%;
   display: flex;
   background-color: #07FE20;
-  margin: 8% 0;
+  margin: 10% 0;
   border-radius: 12px;
 }
 .home .middle-section-top-left {
@@ -324,7 +325,7 @@ header div a {
 }
 .home .middle-section-top-right li {
   color: #07FE20;
-  font-size: 3.5rem;
+  font-size: 4.5rem;
   list-style-type: disc;
   margin: 10% ;
 }
@@ -335,7 +336,7 @@ header div a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 30%;
+  margin-bottom: 50%;
 }
 .home .middle-section-buttons .middle-sections-phonesIMG div {
   width: 180px;
@@ -345,14 +346,14 @@ header div a {
   background-repeat: no-repeat;
 }
 .home .middle-section-buttons .middle-sections-phonesIMG .phoneImg1 {
-  margin-right: -8%;
+  margin-right: -5%;
 }
 .home .middle-section-buttons .middle-sections-phonesIMG .phoneImg2 {
-  margin-bottom: -30%;
+  margin-bottom: -35%;
   z-index: 1;
 }
 .home .middle-section-buttons .middle-sections-phonesIMG .phoneImg3 {
-  margin-left: -8%;
+  margin-left: -5%;
 }
 .home .middle-section-buttons .middle-sections-learn-start {
   display: flex;
@@ -362,9 +363,24 @@ header div a {
   padding: 0.9% 10%;
   border-radius: 5px;
   color: black;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 .home .middle-section-buttons .middle-sections-learn-start .learnBtn {
   background-color: #2F2D2D;
   color: #07FE20;
+}
+.home .middle-image {
+  width: 90%;
+  display: flex;
+  margin: 30% 0;
+}
+.home .middle-image div {
+  width: 33.3%;
+  height: 652px;
+}
+.home .middle-image .middleimg1 {
+  background-image: url(https://images.unsplash.com/photo-1528712306091-ed0763094c98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=680&q=80);
+}
+.home .middle-image .middleimg2 {
+  background-image: url(https://images.unsplash.com/photo-1454334281609-87a89762912c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
 }
