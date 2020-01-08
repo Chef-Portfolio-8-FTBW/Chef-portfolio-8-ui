@@ -162,6 +162,14 @@ a {
   font-style: normal;
   font-weight: normal;
 }
+.btn {
+  background-color: #07FE20;
+  padding: 0.5% 2.5%;
+  border-radius: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
 header {
   display: flex;
   justify-content: space-evenly;
@@ -319,4 +327,44 @@ header div a {
   font-size: 3.5rem;
   list-style-type: disc;
   margin: 10% ;
+}
+.home .middle-section-buttons {
+  width: 70%;
+}
+.home .middle-section-buttons .middle-sections-phonesIMG {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30%;
+}
+.home .middle-section-buttons .middle-sections-phonesIMG div {
+  width: 180px;
+  height: 360px;
+  background-image: url(http://www.clker.com/cliparts/0/K/2/3/0/U/iphone-hi.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.home .middle-section-buttons .middle-sections-phonesIMG .phoneImg1 {
+  margin-right: -8%;
+}
+.home .middle-section-buttons .middle-sections-phonesIMG .phoneImg2 {
+  margin-bottom: -30%;
+  z-index: 1;
+}
+.home .middle-section-buttons .middle-sections-phonesIMG .phoneImg3 {
+  margin-left: -8%;
+}
+.home .middle-section-buttons .middle-sections-learn-start {
+  display: flex;
+  justify-content: space-between;
+}
+.home .middle-section-buttons .middle-sections-learn-start a {
+  padding: 0.9% 10%;
+  border-radius: 5px;
+  color: black;
+  font-size: 1.5rem;
+}
+.home .middle-section-buttons .middle-sections-learn-start .learnBtn {
+  background-color: #2F2D2D;
+  color: #07FE20;
 }
