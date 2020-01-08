@@ -390,3 +390,57 @@ header div a {
   justify-content: space-between;
   margin: 12% 0 21%;
 }
+.home .bottom-section-img {
+  display: flex;
+  flex-direction: column;
+}
+.home .bottom-section-img .bottomimg1 {
+  background-image: url();
+}
+.home .bottom-section-img .bottomimg2 {
+  background-image: url();
+}
+.home .bottom-section-img .bottomimg3 {
+  background-image: url();
+}
+.home .bottom-section-img .bottomimg4 {
+  background-image: url();
+}
+.home .bottom-section-img .bottomimg5 {
+  background-image: url(https://images.unsplash.com/photo-1571942389648-078c07e6a28f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+}
+.home .bottom-section-img .bottom-section-img-bottom {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+}
+.home .bottom-section-img .bottom-section-img-bottom div {
+  width: 396px;
+  height: 212px;
+}
+.home .bottom-quote {
+  width: 90%;
+  margin: 21% 0 16.5%;
+}
+.home .bottom-quote .bottom-quote-top {
+  color: white;
+  opacity: 0.4;
+  font-size: 3.5rem;
+}
+.home .bottom-quote .bottom-quote-bottom {
+  font-size: 4.5rem;
+  color: white;
+  opacity: 0.8;
+}
+.home .bottom-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.home .bottom-button a {
+  width: 65%;
+  text-align: center;
+  font-size: 5rem;
+  color: black;
+  border-radius: 10px;
+}
