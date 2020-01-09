@@ -266,11 +266,11 @@ footer .copyrightContainer {
   margin: 2% 0 4%;
 }
 footer .copyrightContainer p {
-  opacity: 0.4;
+  color: rgba(255, 255, 255, 0.4);
 }
 footer .iconimg1 {
   border-radius: 20px;
-  background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  gibackground-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -554,8 +554,7 @@ footer .iconimg3 {
   margin: 21% 0 19%;
 }
 .home .bottom-quote .bottom-quote-top {
-  color: white;
-  opacity: 0.4;
+  color: rgba(255, 255, 255, 0.4);
   font-size: 4rem;
   margin-bottom: 3%;
 }
