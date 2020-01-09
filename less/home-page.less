@@ -77,7 +77,7 @@
         input {
             border-radius: 5px;
             width: 100%;
-            background-color: rgb(68, 64, 64);
+            background-color: @theGrey;
             padding: 1% 0;
             border: none;
         }
@@ -284,15 +284,42 @@
 
         .middleimg1{
             background-image: url(https://images.unsplash.com/photo-1528712306091-ed0763094c98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=680&q=80);
+        
+            @media @mobile {
+                display: none;
+            }
         }
 
         .middleimg2 {
             background-image: url(https://images.unsplash.com/photo-1454334281609-87a89762912c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+        
+            @media @mobile {
+                width: 100%;
+            } 
         }
 
         .middleimg3 {
             background-image: url(https://images.unsplash.com/photo-1534766438357-2b270dbd1b40?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+        
+            @media @mobile {
+                display: none;
+            }
         }
+    }
+
+    .professional-question2 {
+        width: 80%;
+        text-align: center;
+        background-color: @lighter-bg;
+        color: @font-color;
+        padding-top: 4% 0;
+        font-size: 5rem;
+        margin: 6% 0;
+
+        @media @mobile {
+            background-color: @main-bg;
+            font-size: 3rem;
+        }            
     }
 
     .middle-section-videos {
@@ -300,6 +327,15 @@
         display: flex;
         justify-content: space-between;
         margin: 12% 0 21%;
+        @media @mobile {
+            justify-content: center;
+        }
+    }
+
+    .mobile-video {
+        @media @mobile {
+            display: none;
+        }
     }
 
 
