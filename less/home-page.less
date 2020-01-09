@@ -90,22 +90,27 @@
 //========================== mobile questions =======================
 .mobile-pro-question {
     display: none;
-
     color: white;
     background-color: green;
+    padding: 9% 0;
+    margin-bottom: 10%;
 
     @media @mobile {
         display: flex;
     }
 
     ul {
+        text-align: center;
         font-size: 2.9rem;
         list-style-type: disc;
+
     }
 
     li {
-        padding: 3% 10%;
+        text-align: start;
+        margin-left: 10%;
         list-style-type: disc;
+        margin-top: 10%;
     }
 }
 
@@ -344,6 +349,10 @@
         flex-direction: column;
         width: 80%;
         border-radius: 20px;
+
+        @media @mobile {
+            margin-top: 10%;
+        }
 
         .bottomimg1 {
             background-image: url(https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);

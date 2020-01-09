@@ -155,6 +155,9 @@ h3 {
   color: white;
   font-size: 3rem;
 }
+h4 {
+  font-size: 4rem;
+}
 p {
   font-size: 1.6rem;
   padding-bottom: 10px;
@@ -399,6 +402,8 @@ footer .iconimg3 {
   display: none;
   color: white;
   background-color: green;
+  padding: 9% 0;
+  margin-bottom: 10%;
 }
 @media (max-width: 500px) {
   .home .mobile-pro-question {
@@ -406,12 +411,15 @@ footer .iconimg3 {
   }
 }
 .home .mobile-pro-question ul {
+  text-align: center;
   font-size: 2.9rem;
   list-style-type: disc;
 }
 .home .mobile-pro-question li {
-  padding: 3% 10%;
+  text-align: start;
+  margin-left: 10%;
   list-style-type: disc;
+  margin-top: 10%;
 }
 .home .top-section-ad {
   width: 80%;
@@ -637,6 +645,11 @@ footer .iconimg3 {
   width: 80%;
   border-radius: 20px;
 }
+@media (max-width: 500px) {
+  .home .bottom-section-img {
+    margin-top: 10%;
+  }
+}
 .home .bottom-section-img .bottomimg1 {
   background-image: url(https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
   background-size: cover;
@@ -692,6 +705,22 @@ footer .iconimg3 {
   font-size: 5rem;
   color: white;
   opacity: 0.8;
+}
+.home .mobile-bottom-quote {
+  display: none;
+  color: white;
+}
+.home .mobile-bottom-quote p {
+  font-size: 3rem;
+  margin: 20% 0;
+}
+@media (max-width: 500px) {
+  .home .mobile-bottom-quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 .home .bottom-button {
   width: 100%;
