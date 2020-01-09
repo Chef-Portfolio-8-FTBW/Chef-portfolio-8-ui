@@ -54,21 +54,39 @@
     .home-search {
         width: 100%;
         display: flex;
-        
-        align-items: center;
+        justify-content: space-between;
+        align-items: baseline;
         background-color: #2F2D2D;
         color: white;        
-        padding-top: 1%;
+        padding: 1.3%;
         font-size: 2rem;
+
         p {
+            font-size: 1.45rem;
+            font-style: italic;
+        }
+
+        .searchForm {
+            width: 60%;
+        }
+
+
+        input {
+            border-radius: 5px;
             width: 100%;
-            font-size: 1.25rem;
+            background-color: rgb(68, 64, 64);
+            padding: 1% 0;
+            border: none;
+        }
+
+        .searchFormLeft {
+            width: 38%;
         }
     }
 
 // ========================= Top ad section =========================
     .top-section-ad {
-        width: 90%;
+        width: 80%;
         display: flex;
         justify-content: space-around;
         align-items: center;
@@ -121,11 +139,11 @@
 
 // ========================= Top question =========================
     .professional-question {
-        width: 90%;
+        width: 80%;
         text-align: center;
         background-color: #2F2D2D;
         color: #07FE20;
-        padding-top: 2% 0;
+        padding-top: 4% 0;
         font-size: 5rem;
         margin: 6% 0;
     }
@@ -133,7 +151,7 @@
 
 // ========================= Middle section top=========================
     .middle-section-top {
-        width: 90%;
+        width: 80%;
         display: flex;
         background-color: #07FE20;
         margin: 14% 0;
@@ -154,6 +172,8 @@
         flex-direction: column;
         justify-content: center;
         padding-left: 4%;
+        border-top-right-radius: 12px;
+        border-bottom-right-radius: 12px;
 
         li {
             color: #07FE20;
@@ -214,9 +234,9 @@
     }
 
     .middle-image {
-        width: 90%;
+        width: 80%;
         display: flex;
-        margin: 30% 0;
+        margin: 25% 0 15%;
         div {
             width: 33.3%;
             height: 652px;
@@ -236,7 +256,7 @@
     }
 
     .middle-section-videos {
-        width: 92%;
+        width: 90%;
         display: flex;
         justify-content: space-between;
         margin: 12% 0 21%;
@@ -246,20 +266,25 @@
     .bottom-section-img {
         display: flex;
         flex-direction: column;
+        width: 80%;
+        border-radius: 20px;
 
         .bottomimg1 {
             background-image: url(https://images.unsplash.com/photo-1505394033641-40c6ad1178d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
             background-size: cover;
+            border-top-left-radius: 5px;
         }
 
         .bottomimg2 {
             background-image: url(https://images.unsplash.com/photo-1560999448-1288f5c62468?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
             background-size: cover;
+            border-top-right-radius: 5px;
         }
 
         .bottomimg3 {
             background-image: url(https://images.unsplash.com/photo-1485451456034-3f9391c6f769?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
             background-size: cover;
+            border-bottom-left-radius: 5px;
         }
 
         .bottomimg4 {
@@ -270,6 +295,7 @@
         .bottomimg5 {
             background-image: url(https://images.unsplash.com/photo-1571942389648-078c07e6a28f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
             background-size: cover;
+            border-bottom-right-radius: 5px;
         }
 
         .bottom-section-img-top {
@@ -298,17 +324,18 @@
     
 
     .bottom-quote {
-        width: 90%;
-        margin: 21% 0 16.5%;
+        width: 80%;
+        margin: 21% 0 19%;
 
         .bottom-quote-top {
             color: white;
             opacity: 0.4;
-            font-size: 3.5rem;
+            font-size: 4rem;
+            margin-bottom: 3%;
         }
 
         .bottom-quote-bottom {
-            font-size: 4.5rem;
+            font-size: 5rem;
             color: white;
             opacity: 0.8;
         }
