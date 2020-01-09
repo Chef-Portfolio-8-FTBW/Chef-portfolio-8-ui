@@ -1,13 +1,9 @@
 footer{
-    background: #2F2D2D;
+    background: @lighter-bg;
     color: white;
     margin-top: 33%;
     padding-top: 15%;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    align-items: center;
-
+    .align-column();
 
     nav {
         width: 45%;
@@ -29,8 +25,7 @@ footer{
         margin-top: 5%;
 
         div {
-            width: 40px;
-            height: 40px;
+            .width-height(40px, 40px);
             margin-left: 3%;
         }
   }
@@ -48,28 +43,18 @@ footer{
     }
 
     .iconimg1 {
-        border-radius: 20px;gi
         background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
-        border: 1px solid @opacity-font;
+        .icon-img();
     }
 
     .iconimg2 {
-        border-radius: 20px;
         background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        .icon-img();
     }
 
     .iconimg3 {
-        border-radius: 20px;
         background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
-        background-size: contain;
-        background-position: center;
-        background-repeat: no-repeat;
+        .icon-img();
     }
 
 

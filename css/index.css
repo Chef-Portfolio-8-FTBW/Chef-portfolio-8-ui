@@ -159,19 +159,15 @@ img {
   max-width: 100%;
   height: auto;
 }
-a {
-  font-style: normal;
-  font-weight: normal;
-}
 iframe {
   width: 303px;
   height: 245px;
 }
 .btn {
+  color: black;
   background-color: #07FE20;
-  padding: 0.5% 2.5%;
   border-radius: 10px;
-  color: white;
+  padding: 0.5% 2.5%;
   text-decoration: none;
   font-size: 2rem;
 }
@@ -215,10 +211,10 @@ header div {
 header div a {
   color: black;
   background-color: #07FE20;
+  border-radius: 10px;
   font-size: 2.5rem;
   text-align: center;
   padding: 3% 15%;
-  border-radius: 10px;
   font-family: lato;
 }
 header .nav-lines {
@@ -233,7 +229,7 @@ footer {
   margin-top: 33%;
   padding-top: 15%;
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -269,30 +265,33 @@ footer .copyrightContainer p {
   color: rgba(255, 255, 255, 0.4);
 }
 footer .iconimg1 {
-  border-radius: 20px;
-  gibackground-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  border-radius: 19px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   border: 1px solid rgba(255, 255, 255, 0.4);
 }
 footer .iconimg2 {
-  border-radius: 20px;
   background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  border-radius: 19px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 footer .iconimg3 {
-  border-radius: 20px;
   background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  border-radius: 19px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .home {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .home .top-image-section {
@@ -377,6 +376,7 @@ footer .iconimg3 {
 .home .top-section-ad-right {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
 .home .top-section-ad-right .img1,
@@ -474,8 +474,9 @@ footer .iconimg3 {
   font-size: 2rem;
 }
 .home .middle-section-buttons .middle-sections-learn-start .learnBtn {
-  background-color: #2F2D2D;
   color: #07FE20;
+  background-color: #2F2D2D;
+  border-radius: 10px;
 }
 .home .middle-image {
   width: 80%;
@@ -524,7 +525,7 @@ footer .iconimg3 {
 }
 .home .bottom-section-img .bottomimg4 {
   background-image: url(https://images.unsplash.com/photo-1445979323117-80453f573b71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-  background-size: stretch;
+  background-size: cover;
 }
 .home .bottom-section-img .bottomimg5 {
   background-image: url(https://images.unsplash.com/photo-1571942389648-078c07e6a28f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);

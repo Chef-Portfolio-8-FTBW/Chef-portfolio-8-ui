@@ -1,15 +1,10 @@
 .home {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    .align-column();
 
 // ========================= Top image section =========================
     .top-image-section {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        .align-column();
         background-image: url(https://images.unsplash.com/photo-1485827329522-c625acce0067?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
         background-repeat: no-repeat;
         background-size: cover;
@@ -100,8 +95,6 @@
 
     .top-section-ad-left {
         
-
-
         p {
             font-size: 4rem;
             margin-top: 12%;
@@ -110,13 +103,10 @@
     }
 
     .top-section-ad-right {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        .align-column();
 
         .img1, .img2, .img3 {
-            width: 280px;
-            height: 172px;
+            .width-height(280px, 172px);
             background-position: center;
         }
 
@@ -137,7 +127,7 @@
         }
     }
 
-// ========================= Top question =========================
+// ========================= Top question, Middle question, Bottom question =========================
     .professional-question {
         width: 80%;
         text-align: center;
@@ -194,8 +184,7 @@
             margin-bottom: 50%;
 
             div {
-                width: 180px;
-                height: 360px;
+                .width-height(180px, 360px);
                 background-image: url(http://www.clker.com/cliparts/0/K/2/3/0/U/iphone-hi.png);
                 background-size: contain;
                 background-repeat: no-repeat;
@@ -227,8 +216,7 @@
             }
 
             .learnBtn {
-                background-color: @ash;
-                color: @font-color;
+                .custom-button(@font-color, @ash, 10px);
             }
         }
     }
@@ -238,8 +226,7 @@
         display: flex;
         margin: 25% 0 15%;
         div {
-            width: 33.3%;
-            height: 652px;
+            .width-height(33.3%, 652px);
         }
 
         .middleimg1{
@@ -289,7 +276,7 @@
 
         .bottomimg4 {
             background-image: url(https://images.unsplash.com/photo-1445979323117-80453f573b71?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
-            background-size: stretch;
+            background-size: cover;
         }
 
         .bottomimg5 {
@@ -304,8 +291,7 @@
             justify-content: center;
 
             div {
-                width: 50%;
-                height: 272px;
+                .width-height(50%, 272px);
             }
         }
 
@@ -315,8 +301,7 @@
             justify-content: center;
 
             div {
-                width: 396px;
-                height: 212px;
+                .width-height(396px, 212px);
             }
         }
     }

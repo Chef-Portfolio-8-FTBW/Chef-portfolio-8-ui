@@ -1,18 +1,33 @@
-// Mixins in here
-.custom-butt(@b-radius, @f-color, @bg-color) {
-    border-radius: @b-radius;
-    background-color: @bg-color;
-    color: @f-color;
+// =============== parametric mixins =============== 
+.width-height(@width, @height){
+    width: @width;
+    height: @height;
 }
 
-.custom-butt-ani(@curs, @trans, @bg-color) {
-    transition: @trans;
+.custom-button(@font-color, @bg-color, @b-radius) {
+    color: @font-color;
+    background-color: @bg-color;
+    border-radius: @b-radius;
+}
+
+.custom-butt-ani(@font-color, @bg-color, @curs) {
+    color: @color;
     background-color: @bg-color;
     cursor: @curs;
 }
 
-.align-column(@disp, @f-direction, @align-i) {
-    display: @disp;
-    flex-direction: @f-direction;
-    align-items: @align-i;
+.align-column() {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+// =============== footer ===============
+.icon-img(){
+    border-radius: 19px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid @opacity-font;
 }
