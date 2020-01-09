@@ -295,28 +295,25 @@ footer .copyrightContainer p {
   color: rgba(255, 255, 255, 0.4);
 }
 footer .iconimg1 {
-  background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  background-image: url(https://cdn.iconscout.com/icon/free/png-256/facebook-35-83440.png);
   border-radius: 19px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 footer .iconimg2 {
-  background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  background-image: url(https://cdn.iconscout.com/icon/free/png-256/twitter-34-83443.png);
   border-radius: 19px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 footer .iconimg3 {
-  background-image: url(http://www.clker.com/cliparts/5/8/5/b/13859958641165122791twitter_logo_blue-hi.png);
+  background-image: url(https://cdn.iconscout.com/icon/free/png-256/instagram-52-151106.png);
   border-radius: 19px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border: 1px solid rgba(255, 255, 255, 0.4);
 }
 .home {
   display: flex;
@@ -733,6 +730,13 @@ footer .iconimg3 {
   font-size: 5rem;
   color: black;
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .bottom-button a {
+    width: 90%;
+    font-size: 3rem;
+    padding: 4ss% 0;
+  }
 }
 .home .profile-top {
   display: flex;
